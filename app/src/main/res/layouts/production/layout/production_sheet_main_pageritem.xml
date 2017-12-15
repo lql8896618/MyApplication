@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/production_sheet_main_pageritem_sname"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:text="第一节"/>
+
+    <TextView
+        android:id="@+id/production_sheet_main_pageritem_sign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:text="1-1"/>
+    <ImageView
+        android:id="@+id/production_sheet_main_pageritem_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/noimage"/>
+    <TextView
+        android:id="@+id/production_sheet_main_pageritem_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="40dp"
+        android:textSize="20dp"
+        android:singleLine="false"
+        android:text="剪短发阿萨德给安世高 为噶大概啊为给昂达碎骨阿萨德给阿萨德给爱上的噶"/>
+    <TextView
+        android:id="@+id/production_sheet_main_pageritem_pageno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"
+        android:text="1"/>
+</FrameLayout>

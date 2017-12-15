@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">开心萝卜</string>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="sp_config_file">config_file</string>
+    <string name="sp_control_name">control_name</string>
+    <string name="sp_last_read_production">last_read_production</string>
+    <string name="sp_production_list">production_list</string>
+
+    <string name="check_new_version">正在检测版本</string>
+    <string name="there_no_new_version">当前已经是最新版本了哦</string>
+    <string name="dialog_choose_update_title">发现了新版本</string>
+    <string name="dialog_choose_update_content">升级</string>
+    <string name="dialog_btn_confirm_download">升级</string>
+    <string name="dialog_btn_cancel_download">忽略</string>
+</resources>

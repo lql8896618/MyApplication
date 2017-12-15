@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:drawable/alert_light_frame">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:layout_gravity="left|top"
+        android:background="@android:drawable/title_bar">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="15px"
+            android:src="@android:drawable/ic_menu_help"/>
+        <TextView
+            android:id="@+id/design_dlg_node_helper_txt_title"
+            android:layout_gravity="left|center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100px"
+            android:layout_marginTop="10px"
+            android:layout_marginBottom="10px"
+            android:textSize="40px"
+            android:text="帮助"/>
+        <ImageView
+            android:id="@+id/design_dlg_node_helper_btn_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_input_get"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="80px"/>
+        <ImageView
+            android:id="@+id/design_dlg_node_helper_btn_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"/>
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical|top"
+        android:layout_marginTop="120px"
+        android:paddingTop="15px"
+        android:paddingBottom="15px"
+        android:paddingLeft="15px"
+        android:paddingRight="15px"
+        android:background="@android:drawable/alert_light_frame">
+        <TextView
+            android:id="@+id/design_dlg_node_helper_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:inputType="textMultiLine"/>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:background="#aaaaaa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/global_dialog_progress_txt_title"
+            android:layout_marginLeft="20px"
+            android:gravity="center_vertical"
+            android:layout_gravity="left|center_vertical"
+            android:text="sadgasdg"
+            android:textSize="30dp"
+            android:textColor="#ff00ff"
+            android:paddingTop="15px"
+            android:paddingBottom="15px"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150px">
+        <ProgressBar
+            android:id="@+id/global_dialog_progress_progressbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40px"
+            android:layout_marginLeft="20px"
+            android:layout_marginRight="20px"
+            android:max="100"
+            style="@android:style/Widget.ProgressBar.Horizontal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/global_dialog_progress_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="取消"/>
+    </LinearLayout>
+
+</LinearLayout>

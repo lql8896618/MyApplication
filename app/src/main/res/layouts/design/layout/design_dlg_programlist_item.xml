@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#000000"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:src="@drawable/design_node_prop_oper_add"
+        android:id="@+id/desing_dlg_programlist_item_icon" />
+    <TextView
+        android:id="@+id/desing_dlg_programlist_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="90px"
+        android:gravity="left|center_vertical"
+        android:layout_marginLeft="160px"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="60px"
+        android:text="新建程序1"/>
+    <TextView
+        android:id="@+id/desing_dlg_programlist_item_date"
+        android:layout_width="wrap_content"
+        android:layout_height="60px"
+        android:gravity="left|center_vertical"
+        android:layout_marginLeft="160px"
+        android:layout_marginTop="90px"
+        android:textColor="#b0b0b0"
+        android:text="最后修改时间:2017-11-15 00:00:00"/>
+    <Button
+        android:id="@+id/design_dlg_programlist_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="删除"
+        android:layout_gravity="right"
+        android:layout_marginRight="20px"/>
+</FrameLayout>

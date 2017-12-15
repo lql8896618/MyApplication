@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/production_sheet_bg"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/production_sheet_main_txt_pname"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="机器人的机器人"/>
+
+
+
+    <com.zhl.widget.viewflow.CircleFlowIndicator
+        android:padding="20dip"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/production_sheet_main_pager_circle"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="30dip"
+        app:inactiveType="fill"
+        app:fadeOut="1000" />
+
+    <com.zhl.widget.viewflow.ViewFlow
+        android:duplicateParentState="true"
+        android:id="@+id/production_sheet_main_pager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    </com.zhl.widget.viewflow.ViewFlow>
+
+    <ImageView
+        android:id="@+id/production_sheet_main_button_selchapter"
+        android:layout_width="100px"
+        android:layout_height="120px"
+        android:layout_gravity="bottom|left"
+        android:layout_marginLeft="30px"
+        android:layout_marginBottom="30px"
+        android:scaleType="fitXY"
+        android:src="@android:drawable/ic_dialog_dialer"/>
+</FrameLayout>

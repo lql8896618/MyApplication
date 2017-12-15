@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:background="#cccccc">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:gravity="center"
+            android:layout_marginLeft="10px"
+            android:text="选择程序"/>
+        <ImageButton
+            android:id="@+id/design_dlg_programlist_add"
+            android:layout_width="80px"
+            android:layout_height="80px"
+            android:layout_marginRight="100px"
+            android:layout_gravity="right|center_vertical"
+
+            android:src="@drawable/design_node_prop_oper_add"/>
+        <ImageButton
+            android:id="@+id/design_dlg_programlist_close"
+            android:layout_width="80px"
+            android:layout_height="80px"
+            android:layout_gravity="right|center_vertical"
+            android:src="@drawable/design_node_prop_oper_add"/>
+    </FrameLayout>
+    <ListView
+        android:id="@+id/desing_dlg_programlist_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+</LinearLayout>

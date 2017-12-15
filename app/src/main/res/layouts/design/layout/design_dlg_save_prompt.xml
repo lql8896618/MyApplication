@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#f0f0f0"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120px">
+        <TextView
+            android:id="@+id/design_dlg_save_prompt_txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="警告"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300px">
+        <TextView
+            android:id="@+id/design_dlg_save_prompt_txt_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="切换到新程序前要保存当前程序吗？"
+            android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120px">
+        <Button
+            android:id="@+id/design_dlg_save_prompt_btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="保存"/>
+        <Button
+            android:id="@+id/design_dlg_save_prompt_btn_nosave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="不保存"/>
+        <Button
+            android:id="@+id/design_dlg_save_prompt_btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="取消"/>
+    </LinearLayout>
+</LinearLayout>
